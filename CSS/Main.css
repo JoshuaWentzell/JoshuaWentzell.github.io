@@ -27,8 +27,12 @@
     font-size:6vw;
 }
 
+#orbFrameContainer {
+    overflow: hidden
+}
 
 #orbFrame {
+  -webkit-transform: scale(2);
     width: 100%;
     min-height: 100vh;
     z-index: 0;
