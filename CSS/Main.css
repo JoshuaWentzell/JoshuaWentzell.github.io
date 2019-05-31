@@ -3,14 +3,13 @@
 }
 
 #welcomeSection {
-    --welcome-section-width: 40vw;
+    --welcome-section-width: 80vw;
     --welcome-section-height: 40vh;
 
     width: var(--welcome-section-width);
     height: var(--welcome-section-height);
 
     display: table;
-    font-size:8vw;
     position: absolute;
     z-index: 2;
     color:white;
@@ -25,7 +24,9 @@
     height: 100%;
     float: center;
     text-align: center;
+    font-size:6vw;
 }
+
 
 #orbFrame {
     width: 100%;
