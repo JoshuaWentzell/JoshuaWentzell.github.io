@@ -1,0 +1,38 @@
+#orbDiv { 
+
+}
+
+#welcomeSection {
+    --welcome-section-width: 40vw;
+    --welcome-section-height: 40vh;
+
+    width: var(--welcome-section-width);
+    height: var(--welcome-section-height);
+
+    display: table;
+    font-size:8vw;
+    position: absolute;
+    z-index: 2;
+    color:white;
+    margin-top: calc(50vh - calc(var(--welcome-section-height) / 2));
+    margin-left: calc(50vw - calc(var(--welcome-section-width) / 2));
+}
+
+#welcomeSectionText {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    float: center;
+    text-align: center;
+}
+
+#orbFrame {
+    width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+#portfolioContent {
+
+}
